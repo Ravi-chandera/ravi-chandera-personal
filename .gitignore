@@ -3,5 +3,8 @@ node_modules
 npm-debug.log*
 .next-dev*.log
 verification-*.png
+home-page.png
+blog-page.png
+blog-post.png
 
 .vercel
