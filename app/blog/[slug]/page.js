@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import ConstellationBackground from "../../../components/constellation-background";
 import { blogPosts } from "../../../data/site-content";
 
 export function generateStaticParams() {
@@ -32,9 +33,9 @@ export default async function BlogPostPage({ params }) {
 
   return (
     <main className="page-shell">
-      <div className="background-layer background-grid" aria-hidden="true" />
       <div className="background-layer background-orb orb-left" aria-hidden="true" />
       <div className="background-layer background-orb orb-right" aria-hidden="true" />
+      <ConstellationBackground />
 
       <article className="panel article-shell">
         <div className="article-head">

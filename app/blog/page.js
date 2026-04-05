@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ConstellationBackground from "../../components/constellation-background";
 import { blogPosts } from "../../data/site-content";
 
 export const metadata = {
@@ -10,9 +11,9 @@ export const metadata = {
 export default function BlogPage() {
   return (
     <main className="page-shell">
-      <div className="background-layer background-grid" aria-hidden="true" />
       <div className="background-layer background-orb orb-left" aria-hidden="true" />
       <div className="background-layer background-orb orb-right" aria-hidden="true" />
+      <ConstellationBackground />
       <section className="panel blog-page-hero">
         <p className="eyebrow">Blog</p>
         <h1>Notes on shipping AI systems responsibly</h1>
