@@ -1,0 +1,7 @@
+.next
+node_modules
+npm-debug.log*
+.next-dev*.log
+verification-*.png
+
+.vercel
